@@ -68,7 +68,7 @@ const PersonaCard = ({
 
 export default function Home() {
     return (
-        <main className="text-primary">
+        <main className="text-primary lg:mt-20">
             <Wrapper>
                 <nav className="border-t-2 border-b-2 py-3 flex flex-col justify-center gap-3 mt-5 border-primary sm:flex-row sm:justify-between">
                     <div className="text-xl text-center">Talko</div>
@@ -84,7 +84,7 @@ export default function Home() {
                         </Link>
                     </div>
                 </nav>
-                <div className="mt-10 flex flex-col gap-5 lg:gap-10 xl:flex-row items-center">
+                <div className="mt-10 lg:mt-20 flex flex-col gap-5 lg:gap-10 xl:flex-row items-center">
                     <h1 className="font-primary font-bold text-center text-7xl sm:text-9xl text-primary">
                         WAITLIST
                     </h1>
@@ -99,7 +99,7 @@ export default function Home() {
             <img
                 src="https://framerusercontent.com/images/XSU9IPTBHTBTXmmQ9Lj0Kxd5Kp4.jpg?scale-down-to=512"
                 alt="buffer-image"
-                className="w-full aspect-[1.714/1] object-cover grayscale mt-10 rounded-b-3xl"
+                className="w-full aspect-[1.714/1] object-cover grayscale mt-10 lg:mt-20 rounded-b-3xl"
             />
             <Wrapper className="max-w-6xl mx-auto mt-10 lg:mt-20">
                 <h4 className="text-xl mb-10">Introducing</h4>
